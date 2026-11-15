@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "postinstall": "node -e \"console.log('\\x1b[36m\\n⭐ Welcome to Luca\\'s Cave! If you find this research portfolio useful, please star it on GitHub: https://github.com/Lukecele/lukecele-research\\x1b[0m\\n')\" || true",
     "build": "esbuild app.js --bundle --format=iife --minify --outfile=app.bundle.js"
   },
   "devDependencies": {
