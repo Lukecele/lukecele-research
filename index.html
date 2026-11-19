@@ -23,7 +23,7 @@
     <meta name="description" content="Luca's Cave — The personal research space of Luca Celebrano: computational oncology, spatial multi-omics, biophysical modeling, and reproducible science." />
     <meta name="author" content="Luca Celebrano" />
     <meta name="google-site-verification" content="HvFfQGJ_KHo_uYvgyboXvWj8ItRsMDONQcbV3H0xE0w" />
-    <meta name="keywords" content="Luca's Cave, Luca Celebrano, bioinformatics, computational oncology, spatial omics, Federico II, reaction-diffusion, digital pathology, open source" />
+    <meta name="keywords" content="Luca's Cave, Luca Celebrano, bioinformatics, computational oncology, spatial omics, reaction-diffusion, digital pathology, open source" />
     <link rel="canonical" href="https://lucacelebrano.me/" />
     <link rel="manifest" href="/manifest.webmanifest?v=3" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -58,7 +58,7 @@
         "image": "https://lucacelebrano.me/icon-512.png",
         "jobTitle": "MD Candidate & Computational Oncology Researcher",
         "affiliation": [
-          {"@type": "Organization", "name": "Department of Clinical Medicine and Surgery, Università degli Studi di Napoli Federico II", "url": "https://www.unina.it/"}
+          {"@type": "Organization", "name": "Independent Research", "url": "https://lucacelebrano.me/"}
         ],
         "sameAs": [
           "https://github.com/Lukecele",
@@ -122,11 +122,14 @@
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Medicine × Computation × Open Science</p>
           <h1>Building tools to understand <em>where</em> cancer biology happens.</h1>
-          <p class="hero-lede">I am an MD Candidate conducting computational oncology research at Università degli Studi di Napoli Federico II. I work autonomously on biophysical reaction-diffusion models, spatial multi-omics assays, and reproducible survival pipelines.</p>
+          <p class="hero-lede">I am an Independent Computational Oncology Researcher. I work autonomously on biophysical reaction-diffusion models, spatial multi-omics assays, and reproducible survival pipelines.</p>
           
           <div class="hero-badges-wrap">
-            <a href="https://doi.org/10.21203/rs.3.rs-11695210/v1" target="_blank" rel="noopener noreferrer" class="hero-authority-badge" data-track="hero_badge_rs_preprint">
-              <span>📄</span> Research Square Preprint (Springer Nature) ↗
+            <a href="#research" target="_blank" rel="noopener noreferrer" class="hero-authority-badge" data-track="hero_badge_rs_preprint">
+              <span>📄</span> Research Monograph ↗
+            </a>
+            <a href="https://htbi-bedside-calculator-yu8jwzkifktp2bvvs4ped4.streamlit.app/" target="_blank" rel="noopener noreferrer" class="hero-authority-badge" data-track="hero_badge_htbi_calculator">
+              <span>🧮</span> Live Bedside Calculator (Streamlit) ↗
             </a>
             <a href="https://colab.research.google.com/github/Lukecele/inflammatory-onco-physics/blob/main/demo_inflammatory_onco_physics.ipynb" target="_blank" rel="noopener noreferrer" class="hero-authority-badge" data-track="hero_badge_colab">
               <span>⚡</span> 1-Click Interactive Colab ↗
@@ -137,7 +140,7 @@
           </div>
 
           <div class="hero-actions">
-            <a class="button button-primary" href="https://doi.org/10.21203/rs.3.rs-11695210/v1" target="_blank" rel="noopener noreferrer" data-track="hero_preprint_doi">📄 Research Square Preprint (DOI) <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="#research" target="_blank" rel="noopener noreferrer" data-track="hero_preprint_doi">📄 Research Monograph <span aria-hidden="true">↗</span></a>
             <a class="button button-quiet" href="https://colab.research.google.com/github/Lukecele/inflammatory-onco-physics/blob/main/demo_inflammatory_onco_physics.ipynb" target="_blank" rel="noopener noreferrer" data-track="hero_colab_demo">⚡ 1-Click Colab Demo <span aria-hidden="true">↗</span></a>
             <a class="button button-quiet" href="#lab" data-track="hero_cta_lab">🎬 3D WebGL Lab <span aria-hidden="true">↓</span></a>
             <a class="button button-quiet" href="https://github.com/Lukecele" target="_blank" rel="noopener noreferrer" data-track="hero_github">⭐ GitHub (@Lukecele) <span aria-hidden="true">↗</span></a>
@@ -370,21 +373,35 @@
         <div class="shell">
           <div class="section-heading">
             <p class="eyebrow">02 / Current Research</p>
-            <h2>Two connected research directions, one reproducible workflow.</h2>
-            <p class="section-intro">From mathematical biophysics of pharmacological sanctuaries to computational translational analysis of rare phenotypes.</p>
+            <h2>Connected research programs in mathematical oncology and neuro-biophysics.</h2>
+            <p class="section-intro">From mathematical biophysics of pharmacological sanctuaries to multiscale perivascular hydrodynamics and computational translational analysis.</p>
           </div>
           <div class="research-grid">
+            <article class="research-card featured-card" style="border-color: rgba(99, 102, 241, 0.45); background: linear-gradient(135deg, rgba(20, 25, 60, .85), rgba(16, 32, 57, .9));">
+              <div class="card-topline">
+                <span>CERN Zenodo Permanent Archive · Multi-Cohort 3.0T Benchmark ($N=2,758$)</span>
+                <span class="pill">DOI: 10.5281/zenodo.24261518</span>
+              </div>
+              <h3>Neuro-Glymphatic Tau Dynamics (NGTD)</h3>
+              <p>An in silico multiscale reaction-diffusion and perivascular Stokes-Brinkman transport model of pathological Tau propagation in Alzheimer's disease. Analytical derivation of the DTI-ALPS tipping boundary ($\mathrm{ALPS}_{\text{crit}} = 1.33$), Péclet wave-pinning phase transition, and $69.8\%$ structural mediation of neuroinflammatory seeding.</p>
+              <div class="card-links">
+                <a href="https://github.com/Lukecele/tau-glymphatic-continuum" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_repo">Repository ↗</a>
+                <a href="https://doi.org/10.5281/zenodo.24261518" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_zenodo">Zenodo Archive ↗</a>
+                <a href="https://github.com/Lukecele/tau-glymphatic-continuum/releases/tag/v1.1.0" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_release">Release v1.1.0 (PDF) ↗</a>
+              </div>
+            </article>
             <article class="research-card featured-card">
               <div class="card-topline">
                 <span>Springer Nature Submission · Multi-Cohort Study</span>
-                <span class="pill pill-green">Preprint 10.21203/rs.3.rs-11695210/v1</span>
+                <span class="pill pill-green">Preprint Monograph</span>
               </div>
               <h3>Inflammatory Onco-Physics</h3>
               <p>A Reaction-Diffusion Theory of Microvascular Pharmacological Sanctuaries and Inflammatory Pre-conditioning ($N=3,461$, 11 clinical cohorts). Analytical Krogh-Bessel K₀ transport decay, the 5.46-month ctDNA lead-time identity, and complete-case REMARK survival modeling.</p>
               <div class="card-links">
                 <a href="https://github.com/Lukecele/inflammatory-onco-physics" target="_blank" rel="noopener noreferrer" data-track="research_inflammatory_repo">Repository ↗</a>
+                <a href="https://htbi-bedside-calculator-yu8jwzkifktp2bvvs4ped4.streamlit.app/" target="_blank" rel="noopener noreferrer" data-track="research_inflammatory_calculator">Bedside Calculator ↗</a>
                 <a href="https://bio.tools/inflammatory-onco-physics" target="_blank" rel="noopener noreferrer" data-track="research_inflammatory_biotools">bio.tools ↗</a>
-                <a href="https://doi.org/10.21203/rs.3.rs-11695210/v1" target="_blank" rel="noopener noreferrer" data-track="research_inflammatory_rs_doi">Preprint DOI ↗</a>
+                <a href="#research" target="_blank" rel="noopener noreferrer" data-track="research_inflammatory_rs_doi">Preprint DOI ↗</a>
                 <a href="https://doi.org/10.5281/zenodo.24118328" target="_blank" rel="noopener noreferrer" data-track="research_inflammatory_zenodo">Zenodo Archive ↗</a>
               </div>
             </article>
@@ -395,7 +412,7 @@
               <div class="card-links">
                 <a href="https://github.com/Lukecele/spatial-continuum-oncology" target="_blank" rel="noopener noreferrer" data-track="research_spatial_continuum_repo">Repository ↗</a>
                 <a href="https://bio.tools/spatial-continuum-oncology" target="_blank" rel="noopener noreferrer" data-track="research_spatial_continuum_biotools">bio.tools ↗</a>
-                <a href="https://doi.org/10.21203/rs.3.rs-11530312/v1" target="_blank" rel="noopener noreferrer" data-track="research_spatial_continuum_doi">Preprint DOI ↗</a>
+                <a href="#research" target="_blank" rel="noopener noreferrer" data-track="research_spatial_continuum_doi">Preprint DOI ↗</a>
               </div>
             </article>
             <article class="research-card">
@@ -405,7 +422,7 @@
               <div class="card-links">
                 <a href="https://github.com/Lukecele/spatial-continuum-translational" target="_blank" rel="noopener noreferrer" data-track="research_translational_repo">Repository ↗</a>
                 <a href="https://bio.tools/spatial-continuum-translational" target="_blank" rel="noopener noreferrer" data-track="research_translational_biotools">bio.tools ↗</a>
-                <a href="https://doi.org/10.21203/rs.3.rs-11633521/v1" target="_blank" rel="noopener noreferrer" data-track="research_translational_doi">Preprint DOI ↗</a>
+                <a href="#research" target="_blank" rel="noopener noreferrer" data-track="research_translational_doi">Preprint DOI ↗</a>
               </div>
             </article>
           </div>
@@ -506,6 +523,35 @@
               <span class="system-tag">Three.js WebGL</span>
               <span class="system-tag">ECG Engine</span>
               <span class="system-tag">Tailwind</span>
+            </div>
+            <span class="system-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="system-card" href="https://github.com/Lukecele/tau-glymphatic-continuum" target="_blank" rel="noopener noreferrer" data-track="system_tau_calc">
+            <span class="system-badge">🧠 Biophysics &amp; Neuroimaging · CERN Zenodo &amp; Research Square</span>
+            <span class="system-index">07</span>
+            <span class="system-title">Neuro-Glymphatic Continuum</span>
+            <span class="system-description">Coupled Stokes-Brinkman hydrodynamics, Péclet wave-pinning criteria, and clinical DTI-ALPS perivascular clearance diagnostics in Alzheimer's disease ($N=2,758$). Includes standalone CLI (`tau-calc`).</span>
+            <div class="system-tags">
+              <span class="system-tag">Python 3</span>
+              <span class="system-tag">Stokes-Brinkman</span>
+              <span class="system-tag">Fisher-KPP</span>
+              <span class="system-tag">DTI-ALPS</span>
+              <span class="system-tag">N=2,758</span>
+              <span class="system-tag">Zenodo DOI</span>
+            </div>
+            <span class="system-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="system-card" href="https://htbi-bedside-calculator-yu8jwzkifktp2bvvs4ped4.streamlit.app/" target="_blank" rel="noopener noreferrer" data-track="system_htbi_calculator">
+            <span class="system-badge">🧮 Bedside App · ELIXIR bio.tools &amp; Zenodo DOI</span>
+            <span class="system-index">08</span>
+            <span class="system-title">HTBI Bedside Calculator</span>
+            <span class="system-description">Interactive biophysical risk modeler translating reaction-diffusion Bessel K₀ decay into instantaneous bedside recurrence scores, hazard trajectories, and ctDNA shedding lead times.</span>
+            <div class="system-tags">
+              <span class="system-tag">Streamlit Cloud</span>
+              <span class="system-tag">bio.tools</span>
+              <span class="system-tag">Zenodo DOI</span>
+              <span class="system-tag">CC-BY-4.0</span>
+              <span class="system-tag">Python</span>
             </div>
             <span class="system-arrow" aria-hidden="true">↗</span>
           </a>
