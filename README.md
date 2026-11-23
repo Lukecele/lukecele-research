@@ -19,7 +19,7 @@
 
 A lightweight, fast, and accessible research portfolio for **Luca Celebrano**, Independent computational oncology researcher.
 
-It showcases current scientific manuscripts, open-source computational oncology systems, spatial transcriptomics and spatial omics tools, interactive Hugging Face spaces, and prior algorithmic engineering projects.
+It showcases current scientific manuscripts, open-source computational oncology systems, spatial transcriptomics and spatial omics tools, interactive Hugging Face spaces, and prior algorithmic systems projects.
 
 This portfolio is purposefully separated from institutional analysis pipelines and thesis codebases. It serves as a personal index of research and software, not a clinical decision support system.
 
@@ -29,7 +29,7 @@ This portfolio is purposefully separated from institutional analysis pipelines a
 - **Research Systems** — HTBI Bedside Calculator, Spatial Continuum Oncology, InSituGame, InSituVision-AI, Spatial Oncology Master, and related analytical frameworks.
 - **Interactive Lab** — HTBI Streamlit Bedside Explorer, 2D/3D digital twins, biophysical reaction-diffusion simulators, and public benchmark datasets hosted on Hugging Face.
 - **Clinical Training** — MedTerminal Cardio-Thoracic emergency medicine interactive trainer.
-- **Previous Engineering Work** — Arbitrage Inception and open-source decentralized systems.
+- **Previous Systems Work** — Arbitrage Inception and open-source decentralized systems.
 - **Side Quests** — Interactive easter eggs, cinematic literary and anime quotes (Tolkien, Naruto, Disney, Harry Potter, Dragon Ball), and ambient soundscape in Luca's Cave.
 
 ## Technical Architecture
