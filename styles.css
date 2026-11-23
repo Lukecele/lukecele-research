@@ -224,9 +224,6 @@ h3 { margin-bottom: 12px; font-size: clamp(1.25rem, 2vw, 1.7rem); line-height: 1
   box-shadow: 0 16px 40px rgba(0, 0, 0, .4), 0 0 25px rgba(96, 217, 197, .15);
 }
 .lab-card-primary { background: linear-gradient(145deg, rgba(18, 57, 75, .85), rgba(16, 32, 55, .9)); border-color: rgba(96, 217, 197, .35); }
-.lab-card-substack { background: linear-gradient(145deg, rgba(36, 26, 18, .85), rgba(16, 28, 46, .9)); border-color: rgba(255, 103, 25, .32); }
-.lab-card-substack:hover { border-color: #ff6719; box-shadow: 0 16px 40px rgba(0, 0, 0, .4), 0 0 25px rgba(255, 103, 25, .2); }
-.lab-card-substack .lab-kicker, .lab-card-substack .lab-link { color: #ff8533; }
 .lab-card-github { background: linear-gradient(145deg, rgba(19, 35, 58, .85), rgba(11, 23, 40, .9)); border-color: rgba(119, 169, 255, .35); }
 .lab-card-github:hover { border-color: var(--accent-blue); box-shadow: 0 16px 40px rgba(0, 0, 0, .4), 0 0 25px rgba(119, 169, 255, .2); }
 .lab-card-github .lab-kicker, .lab-card-github .lab-link { color: var(--accent-blue); }
