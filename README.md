@@ -6,8 +6,8 @@
 
 [![Website](https://img.shields.io/badge/🌐_Official_Site-lucacelebrano.me-60d9c5?style=for-the-badge)](https://lucacelebrano.me/)
 [![PWA](https://img.shields.io/badge/PWA-Installable-blue?style=for-the-badge)](https://lucacelebrano.me/)
-[![GitHub](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Lukecele/Lukecele.github.io)
-[![GitHub stars](https://img.shields.io/github/stars/Lukecele/Lukecele.github.io?style=for-the-badge&logo=github&color=gold)](https://github.com/Lukecele/Lukecele.github.io)
+[![GitHub](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Lukecele/lukecele-research)
+[![GitHub stars](https://img.shields.io/github/stars/Lukecele/lukecele-research?style=for-the-badge&logo=github&color=gold)](https://github.com/Lukecele/lukecele-research)
 
 <p>
   <a href="https://lucacelebrano.me/">Explore the research portfolio (lucacelebrano.me) ↗</a>
@@ -19,18 +19,17 @@
 
 A lightweight, fast, and accessible research portfolio for **Luca Celebrano**, Independent computational oncology researcher.
 
-It showcases current scientific manuscripts, open-source computational oncology systems, spatial transcriptomics and spatial omics tools, interactive Hugging Face spaces, and prior algorithmic systems projects.
+It showcases current scientific monographs and preprints, open-source computational oncology and neuro-biophysics packages (6 official **Bioconda** packages and 9 merged **`nf-core/modules`** PRs), spatial multi-omics tools, interactive Hugging Face WebGL spaces, and prior algorithmic systems projects.
 
 This portfolio is purposefully separated from institutional analysis pipelines and thesis codebases. It serves as a personal index of research and software, not a clinical decision support system.
 
 ## Sections
 
-- **Research & Publications** — Peer-reviewed manuscripts (including the submission for *Scientific Reports* and translational preprints on *Zenodo*).
-- **Research Systems** — HTBI Bedside Calculator, Spatial Continuum Oncology, InSituGame, InSituVision-AI, Spatial Oncology Master, and related analytical frameworks.
-- **Interactive Lab** — HTBI Streamlit Bedside Explorer, 2D/3D digital twins, biophysical reaction-diffusion simulators, and public benchmark datasets hosted on Hugging Face.
-- **Clinical Training** — MedTerminal Cardio-Thoracic emergency medicine interactive trainer.
-- **Previous Systems Work** — Arbitrage Inception and open-source decentralized systems.
-- **Side Quests** — Interactive easter eggs, cinematic literary and anime quotes (Tolkien, Naruto, Disney, Harry Potter, Dragon Ball), and ambient soundscape in Luca's Cave.
+- **01 / Computational Lab & 3D Twin** — Interactive 3D Tumor Sanctuary (Hugging Face WebGL Space), Spatial Oncology 60 FPS Simulator, and the 5-part 4K Biophysical Simulation Series.
+- **02 / Current Research** — *Inflammatory Onco-Physics* (*N* = 3,443, 10 cohorts, Preprint v2 `10.21203/rs.3.rs-11695210/v2`, Zenodo `10.5281/zenodo.24393472`), *The Spatial-Genomic Oncology Continuum* (`10.5281/zenodo.24393478`), *Conditional Sub-Threshold Compartments & Translational Extensions* (`10.5281/zenodo.24393479`), and *Neuro-Glymphatic Tau Dynamics (NGTD)* (*N* = 2,758, `10.5281/zenodo.24393484`).
+- **03 / Research Systems & Software** — 3×3 suite of open-source packages and platforms: *Inflammatory Onco-Physics*, *Spatial Continuum Oncology*, *Neuro-Glymphatic Continuum*, *Spatial Continuum Translational*, *InSituGame*, *Spatial Architecture (EGFR)*, *HTBI Bedside Calculator* (Streamlit Cloud), *InSituVision-AI*, and *MedTerminal* (3D WebGL).
+- **04 / Luca's Cave** — Research manifesto, Systems Roots (*Arbitrage Inception*), interactive reproducible research Side Quests, and the 3×3 Quotes & Cinema gallery.
+- **05 / Contact & Network** — Direct academic email, GitHub (`@Lukecele`), verified ORCID (`0009-0007-0931-3555`), Hugging Face Lab (`spatial-continuum-lab`), Curriculum Vitae (`cv.pdf`), and open-source portfolio repository.
 
 ## Technical Architecture
 
