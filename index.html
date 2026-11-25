@@ -28,7 +28,7 @@
     <link rel="manifest" href="/manifest.webmanifest?v=3" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icon-192.png?v=3" />
-    <link rel="stylesheet" href="/styles.css?v=20" />
+    <link rel="stylesheet" href="/styles.css?v=21" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://lucacelebrano.me/" />
     <meta property="og:title" content="Luca's Cave | Luca Celebrano" />
@@ -107,10 +107,10 @@
         <a href="#lab">3D Lab</a>
         <a href="#research">Research</a>
         <a href="#systems">Systems</a>
-        <a href="https://github.com/Lukecele/lukecele-research" target="_blank" rel="noopener" data-track="nav_cave_repo">Cave Repo ↗</a>
-        <a href="https://github.com/Lukecele/spatial-continuum-oncology" target="_blank" rel="noopener">GitHub ⭐</a>
         <a href="#caverna">The Cave</a>
         <a href="#contact">Contact</a>
+        <a href="https://github.com/Lukecele/lukecele-research" target="_blank" rel="noopener" data-track="nav_cave_repo">Cave Repo ↗</a>
+        <a href="https://github.com/Lukecele/spatial-continuum-oncology" target="_blank" rel="noopener">GitHub ⭐</a>
         <button id="pwa-nav-check" class="pwa-nav-btn" type="button">🔄 Update PWA</button>
       </nav>
     </header>
@@ -123,25 +123,25 @@
           <p class="hero-lede">I am an Independent Computational Oncology Researcher. I work autonomously on biophysical reaction-diffusion models, spatial multi-omics assays, and reproducible survival pipelines.</p>
           
           <div class="hero-badges-wrap">
-            <a href="#research" target="_blank" rel="noopener noreferrer" class="hero-authority-badge" data-track="hero_badge_rs_preprint">
-              <span>📄</span> Research Monograph ↗
+            <a href="https://anaconda.org/bioconda/inflammatory-onco-physics" target="_blank" rel="noopener noreferrer" class="hero-authority-badge" data-track="hero_badge_bioconda">
+              <span>🧬</span> 6 Official Bioconda Packages ↗
+            </a>
+            <a href="https://github.com/nf-core/modules/pulls?q=is%3Apr+author%3ALukecele+is%3Amerged" target="_blank" rel="noopener noreferrer" class="hero-authority-badge" data-track="hero_badge_nfcore">
+              <span>⚙️</span> 9 Official nf-core/modules ↗
             </a>
             <a href="https://htbi-bedside-calculator-yu8jwzkifktp2bvvs4ped4.streamlit.app/" target="_blank" rel="noopener noreferrer" class="hero-authority-badge" data-track="hero_badge_htbi_calculator">
               <span>🧮</span> Live Bedside Calculator (Streamlit) ↗
             </a>
-            <a href="https://colab.research.google.com/github/Lukecele/inflammatory-onco-physics/blob/main/demo_inflammatory_onco_physics.ipynb" target="_blank" rel="noopener noreferrer" class="hero-authority-badge" data-track="hero_badge_colab">
-              <span>⚡</span> 1-Click Interactive Colab ↗
-            </a>
             <a href="https://github.com/Lukecele/spatial-architecture-osimertinib" target="_blank" rel="noopener noreferrer" class="hero-authority-badge" data-track="hero_badge_awesome">
-              <span>🧬</span> Curated in awesome-single-cell ↗
+              <span>⭐</span> Curated in awesome-single-cell ↗
             </a>
           </div>
 
           <div class="hero-actions">
-            <a class="button button-primary" href="#research" target="_blank" rel="noopener noreferrer" data-track="hero_preprint_doi">📄 Research Monograph <span aria-hidden="true">↗</span></a>
-            <a class="button button-quiet" href="https://colab.research.google.com/github/Lukecele/inflammatory-onco-physics/blob/main/demo_inflammatory_onco_physics.ipynb" target="_blank" rel="noopener noreferrer" data-track="hero_colab_demo">⚡ 1-Click Colab Demo <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="#research" data-track="hero_preprint_doi">📄 Research <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="https://colab.research.google.com/github/Lukecele/inflammatory-onco-physics/blob/main/demo_inflammatory_onco_physics.ipynb" target="_blank" rel="noopener noreferrer" data-track="hero_colab_demo">⚡ 1-Click Colab <span aria-hidden="true">↗</span></a>
             <a class="button button-quiet" href="#lab" data-track="hero_cta_lab">🎬 3D WebGL Lab <span aria-hidden="true">↓</span></a>
-            <a class="button button-quiet" href="https://github.com/Lukecele" target="_blank" rel="noopener noreferrer" data-track="hero_github">⭐ GitHub (@Lukecele) <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="https://github.com/Lukecele" target="_blank" rel="noopener noreferrer" data-track="hero_github">⭐ GitHub <span aria-hidden="true">↗</span></a>
           </div>
           <div class="quick-links" aria-label="Profile links">
             <a href="https://github.com/Lukecele" rel="me noopener" target="_blank" data-track="hero_github">GitHub</a>
@@ -169,6 +169,27 @@
           <p class="eyebrow">01 / Computational Lab & 3D Twin</p>
           <h2>3D Biophysical Models: Interactive in the Browser.</h2>
           <p class="section-intro">Cancer biology demands spatial models you can directly inspect. Explore the WebGL digital twin, 60 FPS numerical solvers, and real-time reaction-diffusion simulations published on Hugging Face and GitHub.</p>
+        </div>
+
+        <div class="lab-grid" style="margin-bottom: 36px;">
+          <a class="lab-card lab-card-primary" href="https://huggingface.co/spaces/spatial-continuum-lab/tumor-cord-sanctuary-3d" target="_blank" rel="noopener noreferrer" data-track="lab_huggingface_3d">
+            <span class="lab-kicker">Hugging Face Space · WebGL 60 FPS</span>
+            <strong>3D Tumor Sanctuary</strong>
+            <span>Interactive digital twin of perivascular reaction-diffusion and pharmacological resistance sanctuaries.</span>
+            <span class="lab-link">Open 3D Space ↗</span>
+          </a>
+          <a class="lab-card" href="https://lukecele.github.io/spatial-continuum-oncology/simulator.html" target="_blank" rel="noopener noreferrer" data-track="lab_simulator_live">
+            <span class="lab-kicker">Live simulator · Mobile 60 FPS</span>
+            <strong>Spatial Oncology Simulator</strong>
+            <span>Interactive numerical solver: visualize Bessel K₀ diffusion gradients and the post-ADAURA discontinuation dilemma in real time.</span>
+            <span class="lab-link">Launch simulator ↗</span>
+          </a>
+          <a class="lab-card lab-card-github" href="https://github.com/Lukecele/spatial-continuum-oncology" target="_blank" rel="noopener noreferrer" data-track="lab_github_core">
+            <span class="lab-kicker">GitHub · Flagship Solver</span>
+            <strong>spatial-continuum-oncology</strong>
+            <span>Exact Krogh-Bessel K₀ solver, Volterra hereditary functionals &amp; N = 3,443 survival models. Drop a star to support open research.</span>
+            <span class="lab-link">⭐ Star on GitHub (@Lukecele) ↗</span>
+          </a>
         </div>
 
         <article class="shorts-showcase" style="margin-bottom: 24px;">
@@ -335,27 +356,6 @@
             </iframe>
           </div>
         </article>
-
-        <div class="lab-grid">
-          <a class="lab-card lab-card-primary" href="https://huggingface.co/spaces/spatial-continuum-lab/tumor-cord-sanctuary-3d" target="_blank" rel="noopener noreferrer" data-track="lab_huggingface_3d">
-            <span class="lab-kicker">Hugging Face Space · WebGL 60 FPS</span>
-            <strong>3D Tumor Sanctuary</strong>
-            <span>Interactive digital twin of perivascular reaction-diffusion and pharmacological resistance sanctuaries.</span>
-            <span class="lab-link">Open 3D Space ↗</span>
-          </a>
-          <a class="lab-card" href="https://lukecele.github.io/spatial-continuum-oncology/simulator.html" target="_blank" rel="noopener noreferrer" data-track="lab_simulator_live">
-            <span class="lab-kicker">Live simulator · Mobile 60 FPS</span>
-            <strong>Spatial Oncology Simulator</strong>
-            <span>Interactive numerical solver: visualize Bessel K₀ diffusion gradients and the post-ADAURA discontinuation dilemma in real time.</span>
-            <span class="lab-link">Launch simulator ↗</span>
-          </a>
-          <a class="lab-card lab-card-github" href="https://github.com/Lukecele/spatial-continuum-oncology" target="_blank" rel="noopener noreferrer" data-track="lab_github_core">
-            <span class="lab-kicker">GitHub · Flagship Solver</span>
-            <strong>spatial-continuum-oncology</strong>
-            <span>Exact Krogh-Bessel K₀ solver, Volterra hereditary functionals &amp; N=3,443 survival models. Drop a star to support open research.</span>
-            <span class="lab-link">⭐ Star on GitHub (@Lukecele) ↗</span>
-          </a>
-        </div>
       </section>
 
       <!-- 02 / SCIENTIFIC RESEARCH -->
@@ -367,27 +367,13 @@
             <p class="section-intro">From mathematical biophysics of pharmacological sanctuaries to multiscale perivascular hydrodynamics and computational translational analysis.</p>
           </div>
           <div class="research-grid">
-            <article class="research-card featured-card" style="border-color: rgba(99, 102, 241, 0.45); background: linear-gradient(135deg, rgba(20, 25, 60, .85), rgba(16, 32, 57, .9));">
-              <div class="card-topline">
-                <span>Multi-Cohort 3.0T Benchmark ($N=2,758$)</span>
-                <span class="pill">Computational Framework</span>
-              </div>
-              <h3>Neuro-Glymphatic Tau Dynamics (NGTD)</h3>
-              <p>An in silico multiscale reaction-diffusion and perivascular Stokes-Brinkman transport model of pathological Tau propagation in Alzheimer's disease. Analytical derivation of the DTI-ALPS tipping boundary ($\mathrm{ALPS}_{\text{crit}} = 1.33$), Péclet wave-pinning phase transition, and $69.8\%$ structural mediation of neuroinflammatory seeding.</p>
-              <div class="card-links">
-                <a href="https://github.com/Lukecele/tau-glymphatic-continuum" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_repo">Repository ↗</a>
-                <a href="https://doi.org/10.5281/zenodo.24393484" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_doi">Zenodo DOI ↗</a>
-                <a href="https://anaconda.org/bioconda/tau-glymphatic-continuum" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_bioconda">Bioconda ↗</a>
-                <a href="https://github.com/nf-core/modules/tree/master/modules/nf-core/tauglymphatic/calc" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_nfcore">nf-core ↗</a>
-              </div>
-            </article>
             <article class="research-card featured-card">
               <div class="card-topline">
-                <span>Open Computational Monograph · Multi-Cohort Study</span>
+                <span>Open Computational Monograph (N = 3,443)</span>
                 <span class="pill pill-green">Preprint (v2)</span>
               </div>
               <h3>Inflammatory Onco-Physics</h3>
-              <p>A Reaction-Diffusion Theory of Microvascular Pharmacological Sanctuaries and Inflammatory Pre-conditioning ($N=3,443$, 10 clinical cohorts). Analytical Krogh-Bessel K₀ transport decay, the 5.46-month ctDNA lead-time identity, and complete-case REMARK survival modeling.</p>
+              <p>A Reaction-Diffusion Theory of Microvascular Pharmacological Sanctuaries and Inflammatory Pre-conditioning (<em>N</em> = 3,443 across 10 clinical cohorts). Analytical Krogh-Bessel K₀ transport decay, the 5.46-month ctDNA lead-time identity, and complete-case REMARK survival modeling.</p>
               <div class="card-links">
                 <a href="https://github.com/Lukecele/inflammatory-onco-physics" target="_blank" rel="noopener noreferrer" data-track="research_inflammatory_repo">Repository ↗</a>
                 <a href="https://doi.org/10.21203/rs.3.rs-11695210/v2" target="_blank" rel="noopener noreferrer" data-track="research_inflammatory_preprint">Preprint (v2) ↗</a>
@@ -411,8 +397,8 @@
               </div>
             </article>
             <article class="research-card">
-              <div class="card-topline"><span>Biophysical Framework</span><span class="pill pill-green">Open-Source Engine</span></div>
-              <h3>Conditional Sub-Threshold Compartments & Translational Extensions</h3>
+              <div class="card-topline"><span>Biophysical Framework · Translational Audit</span><span class="pill pill-green">Open-Source Engine</span></div>
+              <h3>Conditional Sub-Threshold Compartments &amp; Translational Extensions</h3>
               <p>An exploratory translational model establishing a biophysical reaction-diffusion framework for conditional sub-threshold compartments, perivascular annular volume calculations, and adversarial stress-testing.</p>
               <div class="card-links">
                 <a href="https://github.com/Lukecele/spatial-continuum-translational" target="_blank" rel="noopener noreferrer" data-track="research_translational_repo">Repository ↗</a>
@@ -420,6 +406,20 @@
                 <a href="https://anaconda.org/bioconda/spatial-continuum-translational" target="_blank" rel="noopener noreferrer" data-track="research_translational_bioconda">Bioconda ↗</a>
                 <a href="https://github.com/nf-core/modules/tree/master/modules/nf-core/spatialcontinuumtranslational/audit" target="_blank" rel="noopener noreferrer" data-track="research_translational_nfcore">nf-core ↗</a>
                 <a href="https://bio.tools/spatial-continuum-translational-v2" target="_blank" rel="noopener noreferrer" data-track="research_translational_biotools">bio.tools ↗</a>
+              </div>
+            </article>
+            <article class="research-card featured-card" style="border-color: rgba(99, 102, 241, 0.45); background: linear-gradient(135deg, rgba(20, 25, 60, .85), rgba(16, 32, 57, .9));">
+              <div class="card-topline">
+                <span>Multi-Cohort 3.0T Benchmark (N = 2,758)</span>
+                <span class="pill">Computational Framework</span>
+              </div>
+              <h3>Neuro-Glymphatic Tau Dynamics (NGTD)</h3>
+              <p>An in silico multiscale reaction-diffusion and perivascular Stokes-Brinkman transport model of pathological Tau propagation in Alzheimer's disease. Analytical derivation of the DTI-ALPS tipping boundary (ALPS<sub>crit</sub> = 1.33), Péclet wave-pinning phase transition, and 69.8% structural mediation of neuroinflammatory seeding.</p>
+              <div class="card-links">
+                <a href="https://github.com/Lukecele/tau-glymphatic-continuum" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_repo">Repository ↗</a>
+                <a href="https://doi.org/10.5281/zenodo.24393484" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_doi">Zenodo DOI ↗</a>
+                <a href="https://anaconda.org/bioconda/tau-glymphatic-continuum" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_bioconda">Bioconda ↗</a>
+                <a href="https://github.com/nf-core/modules/tree/master/modules/nf-core/tauglymphatic/calc" target="_blank" rel="noopener noreferrer" data-track="research_ngtd_nfcore">nf-core ↗</a>
               </div>
             </article>
           </div>
@@ -444,95 +444,43 @@
         </div>
 
         <div class="system-grid">
-          <a class="system-card system-card-large" href="https://github.com/Lukecele/spatial-continuum-oncology" target="_blank" rel="noopener noreferrer" data-track="system_spatial_continuum">
-            <span class="system-badge">🧬 Official Bioconda &amp; nf-core Module</span>
+          <a class="system-card system-card-large" href="https://github.com/Lukecele/inflammatory-onco-physics" target="_blank" rel="noopener noreferrer" data-track="system_inflammatory_onco_physics">
+            <span class="system-badge">🔬 Flagship · Bioconda &amp; nf-core Module</span>
             <span class="system-index">01</span>
+            <span class="system-title">Inflammatory Onco-Physics</span>
+            <span class="system-description">Analytical Krogh-Bessel K₀ diffusion solver, Volterra hereditary immune functionals, and complete-case survival analysis across 3,443 clinical cases (10 cohorts).</span>
+            <div class="system-tags">
+              <span class="system-tag">Preprint (v2)</span>
+              <span class="system-tag">Bioconda</span>
+              <span class="system-tag">nf-core</span>
+              <span class="system-tag">bio.tools</span>
+              <span class="system-tag">Bessel K₀</span>
+              <span class="system-tag">N=3,443</span>
+              <span class="system-tag">Zenodo DOI</span>
+            </div>
+            <span class="system-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="system-card" href="https://github.com/Lukecele/spatial-continuum-oncology" target="_blank" rel="noopener noreferrer" data-track="system_spatial_continuum">
+            <span class="system-badge">🧬 Official Bioconda &amp; nf-core Module</span>
+            <span class="system-index">02</span>
             <span class="system-title">Spatial Continuum Oncology</span>
             <span class="system-description">Python package indexed on ELIXIR bio.tools, Bioconda, and official nf-core/modules (spatialcontinuum/cricalc) for reaction-diffusion transport and Bessel K₀ sanctuaries.</span>
             <div class="system-tags">
               <span class="system-tag">Python</span>
               <span class="system-tag">Bioconda</span>
-              <span class="system-tag">bio.tools</span>
-              <span class="system-tag">nf-core</span>
-            </div>
-            <span class="system-arrow" aria-hidden="true">↗</span>
-          </a>
-          <a class="system-card" href="https://github.com/Lukecele/spatial-architecture-osimertinib" target="_blank" rel="noopener noreferrer" data-track="system_spatial_architecture">
-            <span class="system-badge">⭐ Curated in awesome-single-cell</span>
-            <span class="system-index">02</span>
-            <span class="system-title">Spatial Architecture</span>
-            <span class="system-description">Visium HD spatial analysis of subcellular transport boundaries in EGFR-mutant NSCLC. Officially curated in awesome-single-cell.</span>
-            <div class="system-tags">
-              <span class="system-tag">Visium HD</span>
-              <span class="system-tag">awesome-single-cell</span>
-              <span class="system-tag">Spatial Omics</span>
-            </div>
-            <span class="system-arrow" aria-hidden="true">↗</span>
-          </a>
-          <a class="system-card" href="https://github.com/Lukecele/spatial-game-assay" target="_blank" rel="noopener noreferrer" data-track="system_insitugame">
-            <span class="system-badge">🎲 Evolutionary Game Assay · Bioconda &amp; nf-core</span>
-            <span class="system-index">03</span>
-            <span class="system-title">InSituGame</span>
-            <span class="system-description">Spatial evolutionary game-theoretic assay for subclonal payoff matrices, Nash attractors, and adaptive therapy dynamics in solid tumors.</span>
-            <div class="system-tags">
-              <span class="system-tag">Game Theory</span>
-              <span class="system-tag">Bioconda</span>
               <span class="system-tag">nf-core</span>
               <span class="system-tag">bio.tools</span>
-              <span class="system-tag">Python</span>
-            </div>
-            <span class="system-arrow" aria-hidden="true">↗</span>
-          </a>
-          <a class="system-card" href="https://github.com/Lukecele/spatial-he-vision-study4" target="_blank" rel="noopener noreferrer" data-track="system_insituvision">
-            <span class="system-badge">👁️ Digital Pathology AI · Open Source</span>
-            <span class="system-index">04</span>
-            <span class="system-title">InSituVision-AI</span>
-            <span class="system-description">Digital pathology research platform with Attention-MIL deep learning for spatial vascular decoupling on routine H&amp;E whole-slide images.</span>
-            <div class="system-tags">
-              <span class="system-tag">Attention-MIL</span>
-              <span class="system-tag">PyTorch</span>
-              <span class="system-tag">H&amp;E Vision</span>
-              <span class="system-tag">Pathology</span>
-            </div>
-            <span class="system-arrow" aria-hidden="true">↗</span>
-          </a>
-          <a class="system-card" href="https://github.com/Lukecele/inflammatory-onco-physics" target="_blank" rel="noopener noreferrer" data-track="system_inflammatory_onco_physics">
-            <span class="system-badge">🔬 Flagship · Bioconda &amp; nf-core Module</span>
-            <span class="system-index">05</span>
-            <span class="system-title">Inflammatory Onco-Physics</span>
-            <span class="system-description">Analytical Krogh-Bessel K₀ diffusion solver, Volterra hereditary immune functionals, and complete-case survival analysis across 3,443 clinical cases (10 cohorts).</span>
-            <div class="system-tags">
-              <span class="system-tag">Preprint (v2)</span>
-              <span class="system-tag">Reaction-Diffusion</span>
-              <span class="system-tag">Bessel K₀</span>
-              <span class="system-tag">N=3,443</span>
-              <span class="system-tag">bio.tools</span>
-              <span class="system-tag">Bioconda</span>
-              <span class="system-tag">nf-core</span>
               <span class="system-tag">Zenodo DOI</span>
             </div>
             <span class="system-arrow" aria-hidden="true">↗</span>
           </a>
-          <a class="system-card" href="https://cardio-thoracic-medterminal.vercel.app/" target="_blank" rel="noopener noreferrer" data-track="system_medterminal">
-            <span class="system-badge">🩺 Clinical Education · 3D WebGL</span>
-            <span class="system-index">06</span>
-            <span class="system-title">MedTerminal</span>
-            <span class="system-description">Interactive cardiology &amp; pulmonology learning platform: real-time 3D cardiac anatomy, 12-lead ECG telemetry simulation, and cardiac auscultation audio engine.</span>
-            <div class="system-tags">
-              <span class="system-tag">React</span>
-              <span class="system-tag">Three.js WebGL</span>
-              <span class="system-tag">ECG Engine</span>
-              <span class="system-tag">Tailwind</span>
-            </div>
-            <span class="system-arrow" aria-hidden="true">↗</span>
-          </a>
           <a class="system-card" href="https://github.com/Lukecele/tau-glymphatic-continuum" target="_blank" rel="noopener noreferrer" data-track="system_tau_calc">
-            <span class="system-badge">🧠 Biophysics &amp; Neuroimaging · Bioconda &amp; nf-core</span>
-            <span class="system-index">07</span>
+            <span class="system-badge">🧠 Neuro-Biophysics · Bioconda &amp; nf-core</span>
+            <span class="system-index">03</span>
             <span class="system-title">Neuro-Glymphatic Continuum</span>
-            <span class="system-description">Coupled Stokes-Brinkman hydrodynamics, Péclet wave-pinning criteria, and clinical DTI-ALPS perivascular clearance diagnostics in Alzheimer's disease ($N=2,758$). Includes standalone CLI (`tau-calc`).</span>
+            <span class="system-description">Coupled Stokes-Brinkman hydrodynamics, Péclet wave-pinning criteria, and clinical DTI-ALPS perivascular clearance diagnostics in Alzheimer's disease (N = 2,758). Includes standalone CLI (tau-calc).</span>
             <div class="system-tags">
-              <span class="system-tag">Python 3</span>
+              <span class="system-tag">Python</span>
               <span class="system-tag">Bioconda</span>
               <span class="system-tag">nf-core</span>
               <span class="system-tag">Stokes-Brinkman</span>
@@ -542,9 +490,51 @@
             </div>
             <span class="system-arrow" aria-hidden="true">↗</span>
           </a>
+          <a class="system-card" href="https://github.com/Lukecele/spatial-continuum-translational" target="_blank" rel="noopener noreferrer" data-track="system_spatial_translational">
+            <span class="system-badge">🛡️ Sub-Threshold Audit · Bioconda &amp; nf-core</span>
+            <span class="system-index">04</span>
+            <span class="system-title">Spatial Continuum Translational</span>
+            <span class="system-description">Translational stress-testing engine for conditional sub-threshold perivascular compartments, annular volume auditing, and sensitivity sweeps (spatialcontinuumtranslational/audit).</span>
+            <div class="system-tags">
+              <span class="system-tag">Python</span>
+              <span class="system-tag">Bioconda</span>
+              <span class="system-tag">nf-core</span>
+              <span class="system-tag">bio.tools</span>
+              <span class="system-tag">Zenodo DOI</span>
+            </div>
+            <span class="system-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="system-card" href="https://github.com/Lukecele/spatial-game-assay" target="_blank" rel="noopener noreferrer" data-track="system_insitugame">
+            <span class="system-badge">🎲 Game-Theoretic Assay · Bioconda &amp; nf-core</span>
+            <span class="system-index">05</span>
+            <span class="system-title">InSituGame</span>
+            <span class="system-description">Spatial evolutionary game-theoretic assay for subclonal payoff matrices, Nash attractors, and adaptive therapy dynamics in solid tumors (insitugame/run).</span>
+            <div class="system-tags">
+              <span class="system-tag">Game Theory</span>
+              <span class="system-tag">Bioconda</span>
+              <span class="system-tag">nf-core</span>
+              <span class="system-tag">bio.tools</span>
+              <span class="system-tag">Zenodo DOI</span>
+            </div>
+            <span class="system-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="system-card" href="https://github.com/Lukecele/spatial-architecture-osimertinib" target="_blank" rel="noopener noreferrer" data-track="system_spatial_architecture">
+            <span class="system-badge">⭐ awesome-single-cell · Bioconda &amp; nf-core</span>
+            <span class="system-index">06</span>
+            <span class="system-title">Spatial Architecture (EGFR)</span>
+            <span class="system-description">Visium HD spatial analysis of subcellular transport boundaries in EGFR-mutant NSCLC (spatial-sanctuary / spatialsanctuary/egfrcalc). Curated in awesome-single-cell.</span>
+            <div class="system-tags">
+              <span class="system-tag">Visium HD</span>
+              <span class="system-tag">Bioconda</span>
+              <span class="system-tag">nf-core</span>
+              <span class="system-tag">awesome-single-cell</span>
+              <span class="system-tag">Zenodo DOI</span>
+            </div>
+            <span class="system-arrow" aria-hidden="true">↗</span>
+          </a>
           <a class="system-card" href="https://htbi-bedside-calculator-yu8jwzkifktp2bvvs4ped4.streamlit.app/" target="_blank" rel="noopener noreferrer" data-track="system_htbi_calculator">
-            <span class="system-badge">🧮 Bedside App · ELIXIR bio.tools &amp; Zenodo DOI</span>
-            <span class="system-index">08</span>
+            <span class="system-badge">🧮 Bedside App · bio.tools &amp; Zenodo DOI</span>
+            <span class="system-index">07</span>
             <span class="system-title">HTBI Bedside Calculator</span>
             <span class="system-description">Interactive biophysical risk modeler translating reaction-diffusion Bessel K₀ decay into instantaneous bedside recurrence scores, hazard trajectories, and ctDNA shedding lead times.</span>
             <div class="system-tags">
@@ -553,6 +543,32 @@
               <span class="system-tag">Zenodo DOI</span>
               <span class="system-tag">CC-BY-4.0</span>
               <span class="system-tag">Python</span>
+            </div>
+            <span class="system-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="system-card" href="https://github.com/Lukecele/spatial-he-vision-study4" target="_blank" rel="noopener noreferrer" data-track="system_insituvision">
+            <span class="system-badge">👁️ Digital Pathology AI · Open Source</span>
+            <span class="system-index">08</span>
+            <span class="system-title">InSituVision-AI</span>
+            <span class="system-description">Digital pathology research platform with Attention-MIL deep learning for spatial vascular decoupling on routine H&amp;E whole-slide images.</span>
+            <div class="system-tags">
+              <span class="system-tag">Attention-MIL</span>
+              <span class="system-tag">PyTorch</span>
+              <span class="system-tag">H&amp;E Vision</span>
+              <span class="system-tag">Zenodo DOI</span>
+            </div>
+            <span class="system-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="system-card" href="https://cardio-thoracic-medterminal.vercel.app/" target="_blank" rel="noopener noreferrer" data-track="system_medterminal">
+            <span class="system-badge">🩺 Clinical Education · 3D WebGL</span>
+            <span class="system-index">09</span>
+            <span class="system-title">MedTerminal</span>
+            <span class="system-description">Interactive cardiology &amp; pulmonology learning platform: real-time 3D cardiac anatomy, 12-lead ECG telemetry simulation, and cardiac auscultation audio engine.</span>
+            <div class="system-tags">
+              <span class="system-tag">React</span>
+              <span class="system-tag">Three.js WebGL</span>
+              <span class="system-tag">ECG Engine</span>
+              <span class="system-tag">Tailwind</span>
             </div>
             <span class="system-arrow" aria-hidden="true">↗</span>
           </a>
@@ -580,6 +596,14 @@
             <button class="sound-toggle" type="button" data-youtube data-track="cave_youtube_music">▶ Hey Brother · YouTube</button>
             <span>Optional soundtrack · Konoha Ninja Spirit — The Will of Fire</span>
             <div class="youtube-player" data-youtube-player hidden></div>
+          </div>
+
+          <div class="compact-section" style="margin-bottom: 56px; padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: rgba(255,255,255,.02);">
+            <div>
+              <p class="eyebrow" style="margin-bottom: 8px;">Systems Roots</p>
+              <h3 style="font-size: 1.45rem; margin-bottom: 10px;">Before medicine, I was building in Web3.</h3>
+            </div>
+            <p>I previously founded <a href="https://github.com/arbincept" target="_blank" rel="noopener noreferrer">Arbitrage Inception</a>, an open-source DeFi protocol collective. That foundational background in protocol architecture, security research, and high-reliability deterministic systems directly powers my scientific computing workflow today.</p>
           </div>
 
           <div class="quest-panel" style="margin-bottom: 56px;">
@@ -621,14 +645,6 @@
               </button>
             </div>
             <p class="quest-motto" data-motto aria-live="polite">A good researcher always carries a spare random seed.</p>
-          </div>
-
-          <div class="compact-section" style="margin-bottom: 56px; padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: rgba(255,255,255,.02);">
-            <div>
-              <p class="eyebrow" style="margin-bottom: 8px;">Systems Roots</p>
-              <h3 style="font-size: 1.45rem; margin-bottom: 10px;">Before medicine, I was building in Web3.</h3>
-            </div>
-            <p>I previously founded <a href="https://github.com/arbincept" target="_blank" rel="noopener noreferrer">Arbitrage Inception</a>, an open-source DeFi protocol collective. That foundational background in protocol architecture, security research, and high-reliability deterministic systems directly powers my scientific computing workflow today.</p>
           </div>
 
           <div class="section-heading" style="margin-bottom: 24px;">
@@ -732,6 +748,12 @@
             <strong>Hugging Face Lab</strong>
             <span>Interactive digital twins, WebGL 3D Spaces, and curated LUAD spatial cohorts.</span>
             <span class="contact-meta">spatial-continuum-lab ↗</span>
+          </a>
+          <a class="contact-card" href="/cv.pdf" target="_blank" rel="noopener noreferrer" data-track="contact_cv">
+            <div class="card-topline"><span>Academic Record</span><span class="pill">PDF</span></div>
+            <strong>Curriculum Vitae</strong>
+            <span>Full academic curriculum, software registries (Bioconda, nf-core, ELIXIR bio.tools), and Zenodo DOIs.</span>
+            <span class="contact-meta">lucacelebrano.me/cv.pdf ↗</span>
           </a>
           <a class="contact-card" href="https://github.com/Lukecele/lukecele-research" target="_blank" rel="noopener noreferrer" data-track="contact_source_repo">
             <div class="card-topline"><span>Source Code</span><span class="pill pill-green">MIT License</span></div>
